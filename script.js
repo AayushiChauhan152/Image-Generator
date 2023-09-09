@@ -1,7 +1,7 @@
 function searchImages() {
     var searchTerm = document.getElementById("searchTerm").value;
-    var apiKey = "AIzaSyAxgEN92x8vhIZBLYH00-r4k4L1jbEpe1k"; // Replace with your API key
-    var cx = "a0a517bcc9d0642da"; // Replace with your Search Engine ID
+    var apiKey = "Your API key"; // Replace with your API key
+    var cx = "Your Search engine ID "; // Replace with your Search Engine ID
     var url = `https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${searchTerm}&searchType=image`;
 
     var xhr = new XMLHttpRequest();
